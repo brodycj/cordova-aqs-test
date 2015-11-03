@@ -1,0 +1,28 @@
+{
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-aqs-android": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/brodybits/cordova-aqs-android",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-aqs-ios": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/brodybits/cordova-aqs-ios",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

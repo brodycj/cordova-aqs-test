@@ -1,0 +1,14 @@
+<plugin id="cordova-aqs-ios" version="0.0.1-dev">
+  <platform name="ios">
+    <!-- THANKS: cordova-plugin-whitelist -->
+    <config-file target="config.xml" parent="/*">
+      <feature name="AQS">
+        <param name="ios-package" value="AQS" />
+        <param name="onload" value="true" />
+      </feature>
+    </config-file>
+
+    <header-file src="src/ios/AQS.h" />
+    <source-file src="src/ios/AQS.m" />
+  </platform>
+</plugin>
