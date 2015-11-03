@@ -10,9 +10,9 @@ In case I accept contributions from any others I will require CLA with similar s
 
 ## About
 
-Test cordova-aqs-ios and cordova-aqs-android:
-- send XHR query to internal file URI (TODO test from a web worker)
-- receive callback in `aqcallback` which shows an alert with the data
+Test [@brodybits / cordova-aqs-android](https://github.com/brodybits/cordova-aqs-android) and [@brodybits / cordova-aqs-ios](https://github.com/brodybits/cordova-aqs-ios):
+- send XHR query to internal file URI from a web worker
+- receive callback in `aqcallback` (which shows an alert with the callback data)
 
 To run on Android: `cordova platform add android` and `cordova platform run android`
 
@@ -20,7 +20,9 @@ To run on iOS: `cordova platform add ios` and `cordova platform run ios`
 
 ## Related project(s)
 
-TBD
+Test for:
+- [@brodybits / cordova-aqs-android](https://github.com/brodybits/cordova-aqs-android)
+- [@brodybits / cordova-aqs-ios](https://github.com/brodybits/cordova-aqs-ios)
 
 Similar to:
 - [@brodybits / aq-query-test-android](https://github.com/brodybits/aq-query-test-android) - request native Android functionality from within a web worker (no external dependencies)

@@ -22,9 +22,8 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
 
-        var r = new XMLHttpRequest();
-        r.open("POST", "file:///aqaq/asdf?afsd=%12&,s=23%3", true);
-        r.send();
+        var w = new Worker('mytask.js');
+        w.postMessage('go');
 
     },
     // Update DOM on a Received Event
