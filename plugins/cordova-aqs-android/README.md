@@ -11,7 +11,9 @@ License is subject to change, and this project may be dedicated to the public do
 
 ## About
 
-Javascript can do XHR query of certain URI(s) starting with `file://aqaq` and receive a callback in the `aqcallback` function. This is similar to the native Android part of [@brodybits / aq-query-test-android](https://github.com/brodybits/aq-query-test-android) working within a Cordova plugin. This *should* also work from a web worker. This will be used to support sqlite access from a web worker.
+Javascript can do XHR query of certain URI(s) starting with `file://aqaq` and receive a callback in the `aqcallback` function. This is similar to the native Android part of [@brodybits / aq-query-test-android](https://github.com/brodybits/aq-query-test-android) working within a Cordova plugin.
+
+This is also tested working from a web worker. This will be used to support sqlite access from a web worker.
 
 ## Major tips & tricks
 
@@ -20,6 +22,10 @@ Javascript can do XHR query of certain URI(s) starting with `file://aqaq` and re
 ## Security TODO(s)
 
 Enforce use of secret bridge code, like the Cordova framework does.
+
+## Other major limitations
+
+- No queueing built-in
 
 ## Related project(s)
 
